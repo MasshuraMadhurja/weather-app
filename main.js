@@ -56,6 +56,9 @@ function displayResults (weather) {
 
   let hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+
+  let humidity = document.querySelector('.current .hum');
+humidity.innerHTML = `Humidity ${Math.round(weather.main.humidity)}<span>%</span>`;
   
   let feel = document.querySelector('.current .feel');
 feel.innerHTML = `Feels like ${Math.round(weather.main.feels_like)}<span>°c</span>`;

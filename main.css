@@ -103,3 +103,12 @@ main {
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
   }
+  .current .hum {
+    margin-top: 1rem;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500;
+  
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
